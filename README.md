@@ -1,14 +1,14 @@
 # OutlookBrute
 A script to brute force outlook emails 
 
-<p>Below is part of the html to in the response that tells us if the email is valid or not </p>
+<p>Below is how the code detects if the email is valid or not check the html response</p>
 
 ```
-	# if value is 1 user is invalid 
-	reg = r'IfExistsResult\":1'
-
-	## if value is 0 then user is valid 
-	reg2 = r'IfExistsResult\":0'```
+# if value is 1 user is invalid 
+reg = r'IfExistsResult\":1'
+## if value is 0 then user is valid 
+reg2 = r'IfExistsResult\":0'
+```
 
 
 
